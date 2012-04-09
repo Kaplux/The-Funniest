@@ -17,7 +17,7 @@ public class ViewPictureActivity extends fr.mildlyusefulsoftware.imageviewer.act
 
 	@Override
 	protected String getAdMobId() {
-		return "a14f805d0f7e457";
+		return "a14f805fdf159e8";
 	}
 
 	private void createPicDb(){
