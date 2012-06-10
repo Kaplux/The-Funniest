@@ -2,4 +2,6 @@
 <resources>
     <string name="hello">Hello thefunniest!</string>
     <string name="app_name">The Funniest Pictures</string>
+    <string name="startapp_devid">106102603</string> 
+    <string name="startapp_appid">206841845</string>
 </resources>
