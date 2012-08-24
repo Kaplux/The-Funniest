@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fr.mildlyusefulsoftware.thefunniest"
-    android:versionCode="4"
-    android:versionName="1.3" >
+    android:versionCode="5"
+    android:versionName="1.4" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -47,6 +47,9 @@
             android:name="com.apperhand.device.android.AndroidSDKProvider"
             android:enabled="true" >
         </service>
+          <activity
+			android:name="com.apperhand.device.android.EULAActivity" android:theme="@android:style/Theme.Translucent" android:configChanges="keyboard|keyboardHidden|orientation" />
+ 
     </application>
 
 </manifest>
